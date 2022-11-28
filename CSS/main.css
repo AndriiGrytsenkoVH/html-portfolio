@@ -1,0 +1,158 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: grey;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: teal
+}
+
+nav a:hover{
+    color: white
+}
+
+nav ul:hover{
+    background-color: red;
+    transform: rotate(180deg);
+}
+
+.hero-image{
+    background-image: 
+        linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
+        url(https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?quality=90&webp=true&resize=556,236);
+        
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-article ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-detail{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.side-article, .main-article{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-article{
+    background-color: white;
+    text-align: center;
+}
+
+.main-article{
+    background-color: wheat;
+}
+
+form{
+    margin-top: 20px;
+
+}
+
+textarea, input{
+    background-color: teal;
+    border-radius: 0 30%;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.side-article h1{
+    margin-bottom: 20px;
+
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: 5vh;
+    margin-top: 0;
+
+}
+
+footer div{
+    text-align: center;
+    color: wheat;
+
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px white;
+}
+
+main{
+    overflow:auto;
+}
