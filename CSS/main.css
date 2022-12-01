@@ -4,7 +4,7 @@ body, html{
 }
 
 body{
-    background-color: grey;
+    background-color: rgba(0, 60, 255, 0.757);
 }
 
 nav li{
@@ -34,14 +34,13 @@ nav a:hover{
 }
 
 nav ul:hover{
-    background-color: red;
     transform: rotate(180deg);
 }
 
 .hero-image{
     background-image: 
         linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),
-        url(https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?quality=90&webp=true&resize=556,236);
+        url(https://picsum.photos/1000);
         
     height: 50%;
     background-repeat: no-repeat;
@@ -155,4 +154,6 @@ footer hr{
 
 main{
     overflow:auto;
+    height: auto;
+    display: flex;
 }
